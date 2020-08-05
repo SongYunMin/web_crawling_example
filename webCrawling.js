@@ -10,8 +10,8 @@ const getHtml = async() => {
     } catch (error) {
         console.error(error);
     }
-};
 
+};
 getHtml()
     .then(html => {
         let ulList = [];
