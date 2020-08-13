@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node crowling-example/routes/index.js"
+    "start": "node webCrawling.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,14 @@
     "cheerio": "^1.0.0-rc.3",
     "express": "^4.17.1",
     "yarn": "^1.22.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SongYunMin/web_crawling_example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SongYunMin/web_crawling_example/issues"
+  },
+  "homepage": "https://github.com/SongYunMin/web_crawling_example#readme"
 }
